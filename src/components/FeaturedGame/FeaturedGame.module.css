@@ -1,0 +1,40 @@
+.featuredGame{
+    position: relative;
+    height: 420px;
+    margin-top: 30%;
+
+    overflow: visible;
+}
+
+.background{
+    position: absolute;
+    inset: 0;
+
+    background-image: url("../../assets/images/img-featured/spiderman2/spider-peter-e-miles.png");
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.characters{
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+
+    width: 750px;
+    max-height: 480px;
+    object-fit: contain;
+
+    transform: translateY(-35px);
+
+    z-index: 2;
+}
+
+.content{
+    position: absolute;
+    left: 35px;
+    bottom: 25px;
+    z-index: 3;
+}

@@ -1,6 +1,7 @@
 import './App.css';
 import SidebarAkilles from "./components/Sidebar/Sidebar";
 import HeaderAkilles from './components/Header/Header';
+import FeaturedGame from './components/FeaturedGame/FeaturedGame';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <HeaderAkilles />
 
         <main>
-          
+          <FeaturedGame/>
         </main>
       </div>
     </div>
