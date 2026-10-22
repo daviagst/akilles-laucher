@@ -19,4 +19,10 @@
     border-radius: 25px;
     background-color: #454545;
     color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.arrows button:hover{
+    transform: scale(1.1);
 }
