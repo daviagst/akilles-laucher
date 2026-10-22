@@ -1,0 +1,22 @@
+.GameCard{
+    position: relative;
+    width: 80vw;
+    margin: 60px auto 0;
+
+}
+
+.arrows{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.arrows button{
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+    background-color: #454545;
+    color: white;
+}

@@ -2,6 +2,7 @@ import './App.css';
 import SidebarAkilles from "./components/Sidebar/Sidebar";
 import HeaderAkilles from './components/Header/Header';
 import FeaturedGame from './components/FeaturedGame/FeaturedGame';
+import GameCard from './components/GameCard/GameCard';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
 
         <main>
           <FeaturedGame/>
+          <GameCard/>
         </main>
       </div>
     </div>

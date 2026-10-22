@@ -1,9 +1,9 @@
 .featuredGame{
-    position: relative;
-    width: 80vw;
-    height: 45vh;
-    margin: 160px auto 0;
-    overflow: visible;
+  position: relative;
+  width: 80vw;
+  height: 45vh;
+  margin: 160px auto 0;
+  overflow: visible;
 }
 
 .background{
