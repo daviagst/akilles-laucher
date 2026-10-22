@@ -36,8 +36,57 @@
   display: flex;
 }
 
-.content button{
-  background-color: green;
+.details{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.details button{
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+  border: none;
+  background-color: #54ec54;
+  box-shadow: 0px 0px 20px #54ec54af;
+  cursor: pointer;
+  transition: 0.5s;
+
+  font-size: 1.3em;
+  color: white;
+  z-index: 2;
+}
+
+.details button:hover{
+  scale: 1.1;
+  background-color: #54ec54;
+  box-shadow: 0px 0px 20px #54ec54d7;
+}
+
+
+
+.icon_fav a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 2.5vw;
+  height: 5vh;
+
+  background-color: #454545;
+  color: white;
+  font-size: 1.5em;
+
+  border-radius: 10px;
+
+  transition: 0.5s;
+}
+
+.icon_fav a:hover{
+  scale: 1.1;
+  background-color: #ec5487;
+  box-shadow: 0px 0px 20px #ec5487c4;
 }
 
 /*.characters {
