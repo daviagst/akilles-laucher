@@ -11,6 +11,10 @@ function GameCard(){
                 <button> <FontAwesomeIcon icon={faAngleLeft} /> </button>
                 <button> <FontAwesomeIcon icon={faAngleRight} /> </button>
             </div>
+
+            <div className={styles.cards}>
+
+            </div>
         </section>
     )
 }
