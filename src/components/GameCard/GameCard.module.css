@@ -26,3 +26,14 @@
 .arrows button:hover{
     transform: scale(1.1);
 }
+
+.cards{
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    position: absolute;
+}
+
+.games{
+    position: absolute;
+}
