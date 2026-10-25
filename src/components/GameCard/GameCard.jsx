@@ -1,5 +1,6 @@
 import styles from './GameCard.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import redDead2 from "../../assets/images/img-gameCard/red-dead-2.jpg";
 import {faAngleLeft, faAngleRight} from "@fortawesome/free-solid-svg-icons";
 
 
@@ -14,7 +15,7 @@ function GameCard(){
 
             <div className={styles.cards}>
                 <div className={styles.games}>
-                    <img src="../../assets/images/img-gameCard/red-dead-2.jpg" alt="" />
+                    <img src={redDead2} alt="Red Dead Redemption 2" />
                     <button className={styles.details}>Ver detalhes</button>
                 </div>
             </div>
