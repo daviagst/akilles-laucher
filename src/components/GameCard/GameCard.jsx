@@ -16,7 +16,7 @@ function GameCard(){
             <div className={styles.cards}>
                 <div className={styles.games}>
                     <img src={redDead2} alt="Red Dead Redemption 2" />
-                    <button className={styles.details}>Ver detalhes</button>
+                    <button>Ver detalhes</button>
                 </div>
             </div>
         </section>
