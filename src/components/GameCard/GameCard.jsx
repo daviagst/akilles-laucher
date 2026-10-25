@@ -15,6 +15,7 @@ function GameCard(){
             <div className={styles.cards}>
                 <div className={styles.games}>
                     <img src="../../assets/images/img-gameCard/red-dead-2.jpg" alt="" />
+                    <button className={styles.details}>Ver detalhes</button>
                 </div>
             </div>
         </section>
