@@ -24,6 +24,16 @@ function GameCard(){
                     <img src={gowRagnarok} alt="God Of War Ragnarok" />
                     <button>Ver detalhes</button>
                 </div>
+
+                <div className={styles.games}>
+                    <img src={gowRagnarok} alt="God Of War Ragnarok" />
+                    <button>Ver detalhes</button>
+                </div>
+
+                <div className={styles.games}>
+                    <img src={gowRagnarok} alt="God Of War Ragnarok" />
+                    <button>Ver detalhes</button>
+                </div>
             </div>
         </section>
     )
